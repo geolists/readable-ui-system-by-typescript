@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 32px;
+    background: linear-gradient(180deg, rgb(28, 30, 36) 0%, rgb(18, 20, 24) 100%);
+    font-family: "Yu Gothic UI", "Hiragino Sans", "Meiryo", sans-serif;
+    color: #f5f5f5;
+}
+
+.panel {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.title {
+    margin: 0 0 24px 0;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.group-section {
+    margin-bottom: 20px;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #666;
+}
+
+.group-header-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.group-header-line {
+    flex: 1;
+    height: 2px;
+}
+
+.group-title {
+    font-weight: 700;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: 2px solid #888;
+    background-color: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+    .menu-button:hover {
+        transform: translateY(-2px);
+        background-color: rgba(255, 255, 255, 0.12);
+    }
+
+.button-id {
+    font-weight: 700;
+    opacity: 0.9;
+    min-width: 54px;
+}
+
+.result-area {
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+}
