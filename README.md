@@ -1,6 +1,8 @@
 # readable-ui-system-by-typescript
 メニュー画面表示をTypeScriptで実装した。
 
+![実際に表示されるメニュー画面](表示例.png)
+
 # 実現方法
 SHOP.ERBをTypeScriptで実装した。
 
