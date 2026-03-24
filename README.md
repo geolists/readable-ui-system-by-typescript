@@ -1,12 +1,12 @@
 # readable-ui-system-by-typescript
-メニュー画面表示をTypeScriptで実装しました。
+メニュー画面表示をTypeScriptで実装した。
 
 # 実現方法
 SHOP.ERBをTypeScriptで実装した。
 
 # 苦労した点
 ## ローカルサーバ経由で開かないとScriptの実行をブロックされてしまう点
-コードを睨んだが分からず、再びchatGPTに聞いて解決した。
+コードを睨んだが分からず、chatGPTに聞いて解決した。
 
 # 今後の課題
 ## TypeScriptの構文自体を把握していく
